@@ -1,0 +1,8 @@
+Generator class
+
+Write a generator function that will take 3 parameters: $ start, $ to, $ step.
+The function should at each iteration output the current value of $ i from the for loop ($ i = $ start; $ i <$ to; $ i ++)
+Enumerate this generator.
+Call the send method, in which you pass an integer.
+In the generator you need to take this integer and set it in step.
+Make sure that when changing the value of step, the step in the loop has really changed.
